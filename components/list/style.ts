@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     padding: 1,
     borderRadius: 10,
     alignItems: 'center',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-between',
     borderWidth: 3,
     borderColor: '#8E8E8E',
     marginVertical: 5,
@@ -36,14 +36,10 @@ const styles = StyleSheet.create({
 
   leftItemText: {
     color: '#4F4E4E',
-    marginRight: 120,
-    marginLeft: 5,
   },
   rightItemText: {
     color: '#010101 ',
-    position: "absolute",
     paddingRight: 10,
-    right: 0
   }
 });
 
