@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { FlatList, ScrollView, Text, View, VirtualizedList } from 'react-native';
+import IList from '../../interface/ilist';
 import styles from './style';
 interface Props {
-  toDoList: {
-    id: number,
-    toDoItem: string;
-    prezzo: string;
-  }[],
+  toDoList: IList[],
 }
 
 const FlatListBasics = ({ toDoList }: Props) => {
